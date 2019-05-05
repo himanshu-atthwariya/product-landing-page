@@ -1,0 +1,185 @@
+body{
+    margin:0;
+}
+
+/* outer */
+.outer{
+    background-color:rgb(219, 219, 219);
+    /*width:80%;*/
+    margin:0 auto;
+    /* border:5px solid orange; */
+}
+
+
+
+/* header footer*/
+a{
+    text-decoration: none;
+    padding:10px;
+    color: black;
+}
+.right{
+    float:right;
+     /*border:1px solid purple; */
+    padding:5px;
+    clear:both;
+    justify-content:space-around;
+}
+.nav-link{
+    padding:10px 50px;
+    font-size:20px;
+}
+img{
+    max-width:300px;
+    /*border:1px solid violet;*/
+}
+
+
+/* header */
+.company-name{
+    font-size:30px;
+}
+#header{
+    padding-top:5px;
+    overflow: hidden;
+    background-color:rgb(219,219,219);
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    height:50px;
+}
+
+
+/*intro*/
+#intro{
+    margin-top:50px;
+    text-align:center;
+}
+
+
+
+
+/* features */
+.image{
+    width:30%;
+    float: left;
+}
+.details{
+
+    /* width:60%; */
+}
+.grid{
+    display:flex;
+    /*border:1px solid seagreen;*/
+    /*margin-bottom:10px;*/
+}
+.icon{
+    width:10%;
+    padding-left:10px;
+    padding-top:10px;
+    /*border:1px solid darkgreen;*/
+    margin:10px;
+    color:orange;
+}
+#features{
+    width:75%;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+/* form */
+input[type="email"]{
+    height:25px;
+    width:200px;
+}
+input[type="submit"]{
+    height:30px;
+    width:120px;
+    margin:10px;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius:2px;
+    border:0;
+    padding:10px;
+}
+
+
+/*video*/
+#video{
+    border:5px solid brown;
+    width:50%;
+    margin:10px 300px;
+}
+
+
+
+/* flex container*/
+#container{
+    display:flex;
+    text-align: center;
+}
+.item{
+    margin:20px;
+    border:1px solid #244545;
+    padding-bottom:20px;
+    width:25%;
+}
+ul{
+    padding:0;    
+    margin-bottom:30px;
+    /* border:1px solid green; */
+}
+ul li{
+    list-style-type: none;
+    padding-bottom:5px;
+    font-size:20px;
+    /* border:1px solid red; */
+
+}
+.item-heading{
+    margin:0;
+    background-color: darkgrey;
+    border:1px solid #134342;
+    padding:10px;
+}
+.price{
+    font-weight: bold;
+    font-size:25px;
+    /* border:1px solid orange; */
+}
+input[type="button"]{
+    height:40px;
+    width:100px;
+    border:0;
+    background-color: yellow;
+    border-radius: 2px;
+    padding-top:2px;
+}
+
+
+/* footer */
+.footer{
+    /* border:1px solid blue; */
+    background-color: darkgrey;
+    width:100%;
+}
+.copyright{
+    color:rgb(238, 228, 228);
+}
+
+
+/* media query */
+@media screen and (max-width:800px){
+    #container{
+        display:block;
+    }
+    .item{
+        width:40%;
+        margin:0 auto 20px;    
+    }
+}
